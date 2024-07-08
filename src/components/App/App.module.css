@@ -1,0 +1,14 @@
+/* App.module.css */
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.endOfCollection {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #666;
+}

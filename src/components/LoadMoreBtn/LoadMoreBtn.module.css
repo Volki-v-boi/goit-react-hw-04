@@ -1,0 +1,15 @@
+/* LoadMoreBtn.module.css */
+.loadMoreButton {
+  padding: 10px 20px; /* Паддинги для кнопки */
+  font-size: 16px; /* Размер шрифта */
+  color: white; /* Цвет текста */
+  background-color: #007bff; /* Фоновый цвет кнопки */
+  border: none; /* Убираем границу */
+  border-radius: 5px; /* Скругляем углы */
+  cursor: pointer; /* Курсор в виде указателя */
+  transition: background-color 0.3s; /* Анимация изменения цвета */
+}
+
+.loadMoreButton:hover {
+  background-color: #0056b3; /* Цвет фона при наведении */
+}
