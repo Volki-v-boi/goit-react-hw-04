@@ -45,10 +45,10 @@ export default function App() {
       try {
         setLoading(true);
         setError(false);
-        const data = await getImages(topic, page);
-        setTotalPages(data.total_pages);
+        const { results, total_pages } = await getImages(topic, page);
+        setTotalPages(total_pages);
         setImages((prevImages) => {
-          return [...prevImages, ...data];
+          return [...prevImages, ...results];
         });
       } catch (fetchError) {
         setError(true);
