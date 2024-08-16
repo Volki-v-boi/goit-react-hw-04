@@ -1,6 +1,6 @@
 import { Formik, Form, Field } from "formik";
 import toast, { Toaster } from "react-hot-toast";
-import styles from "./SearchBar.module.css"; // Импорт стилей
+import styles from "./SearchBar.module.css";
 
 export default function SearchBar({ onSearch }) {
   return (
